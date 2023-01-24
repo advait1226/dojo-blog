@@ -1,0 +1,25 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Welcome to the new blog",
+            "body": "Lorem Ipsum some random bullshit.",
+            "likes": 57,
+            "author": "Mario"
+        },
+        {
+            "id": 2,
+            "title": "Electric Vehicles",
+            "body": "Cheap and environment friendly.",
+            "likes": 23,
+            "author": "Luigi"
+        },
+        {
+            "id": 3,
+            "title": "Twitter",
+            "body": "Has Elon Musk fucked up Twitter?",
+            "likes": 142,
+            "author": "Parag Agarwal"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #ccc;
+  font-weight: 600;
+  background-color: #151B22;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #003865;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 30px;
+  background-color: #003865;
+}
+
+#title {
+  color: white;
+  font-size: 30px;
+  background-color: #003865;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .links {
+  margin-left: auto;
+  background-color: #003865;
+
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 20px;
+  background-color: #003865;
+  color: white;
+}
+
+.navbar .active {
+  color: #ff963d;
+  
+}
+
+
+.content {
+  padding: 10px 0 10px 10px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  border-bottom: 0px solid #0a111a;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.blog-preview:hover {
+  box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.3);
+  border: 0;
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: #ff963d;
+  margin-bottom: 8px;
+}
+
+#loading {
+  font-size: 20px;
+  padding: 20px;
+}
+
+button {
+  margin: 10px 0px;
+  padding: 5px 10px;
+  border: 0;
+  color: black;
+  border-radius: 10px;
+  background-color: #3e6293;
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.about h1{
+  margin: 0px 0 5px 10px;
+  color: #ff963d;
+  align-self: flex-start;
+}
+.about p{
+  margin: 0 10px 10px 10px;
+  align-self: flex-start;
+}
+
+#salutation{
+  margin: 10px 0 10px 10px;
+}
+
+.blog-details h2{
+  color:#ff963d;
+  margin: 0 0 5px 10px;
+}
+
+.blog-details p{
+  margin-left: 10px;
+}
+
+.blog-details h3{
+  margin: 10px 0 0 10px;
+}
+
+.create {
+  max-width: 600px;
+  margin: 0;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  resize: none;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
